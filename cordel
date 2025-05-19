@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root{
+    --font1:"Sriracha", cursive;
+    --font2:"Poppins", sans-serif;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    min-height: 100vh;
+    background-color: #8C1F28;
+    font-family: var(--font2)
+}
+header{
+    background-color:#044040 ;
+    color:white;
+    text-align: center;
+
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+
+}
+header > h1{
+    font-family: var(--font1);
+}
+header > p{
+    padding-bottom: 50px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+a:hover{
+    text-decoration: underline;
+    color: #D92525;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+
+}
+section.normal{
+    background-color:#D92525 ;
+    color: white;
+
+}
+section.imagem{
+    background-color:#591C21 ;
+    color: white;
+    box-shadow:inset 6px 6px 12px black;
+    background-attachment: fixed;
+
+
+
+}
+.imagem > p{
+    background-color:#2a8065;
+    width: 400px;
+    color: black;
+    width: 400px;
+    box-shadow: inset 1px 1px 6px black ;
+}
+section#imagem01{
+    background-image: url(imagem/Connected-bro.png);
+    background-position: right center;
+    background-size: cover;
+
+}
+section#imagem02{
+    background-image: url(imagem/imagem1.png);
+    background-position: right center;
+    background-size: cover;
+}
+footer{
+    background-color: #B32528;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
